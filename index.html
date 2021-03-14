@@ -1,0 +1,20 @@
+<div>
+  hii
+</div>
+<style>
+/*   input {
+    background: red;
+  } */
+</style>
+<script>
+ // function checkbox () {
+   const types = ["button", "checkbox", "color", "select", "date", "datetime-local"]
+   for(let i = 0; i< 600; i++) {
+    const c = document.createElement('input')
+    c.type = types[i%2]
+    document.body.appendChild(c)
+   }
+   
+ // }
+ // checkbox()
+</script>
